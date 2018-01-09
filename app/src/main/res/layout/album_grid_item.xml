@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/album_grid_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        tools:src="@drawable/ultimoconcierto" />
+
+    <TextView
+        android:id="@+id/album_grid_name"
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Album Name"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkTextColor"/>
+
+    <TextView
+        android:id="@+id/album_grid_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Artist"
+        android:textStyle="italic"/>
+</LinearLayout>
